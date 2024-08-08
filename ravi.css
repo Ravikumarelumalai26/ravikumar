@@ -1,0 +1,123 @@
+*{
+ margin: 0%;   
+ padding: 0%;
+}
+.nav{
+
+  
+  width: 100%;
+  position: relative;
+  height: 100px;
+
+  
+}
+.logo {
+    position: absolute;
+    left: 100px;
+    
+    
+}
+.section{
+   position: absolute;  
+left: 430px; 
+
+top:40px ;
+
+
+}
+
+  .section a{ 
+text-decoration: none;
+margin: 100px;
+font-size: 20px;
+cursor: pointer;
+}
+
+a:hover{
+
+  color: rgb(0, 255, 183);
+}
+.Hire{
+cursor: pointer;
+height: 40px;
+width: 100px;
+background-color: rgb(206, 66, 28);
+border-radius: 45px;
+font-size: large;
+}
+.Hire:hover{
+background-color: hsl(127, 89%, 38%);
+width: 110px;
+}
+
+.pic {
+  position: relative;
+  width: 320px;
+  height: 340px;
+  top: 350px;
+  left: 900px;
+
+   cursor: pointer;
+}
+
+.pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.overally {
+  position: absolute;
+  top: 0.00;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pic:hover .overally {
+  opacity: 1;
+}
+
+.icons {
+  display: flex;
+  gap: 60px;
+}
+
+.icons .id i {
+  color: white;
+  font-size: 2em;
+  transition: transform 0.3s ease;
+}
+
+.icons .id i:hover {
+  transform: scale(2.5);
+}
+.p p{
+position: absolute;
+top:600px ;
+left: 200px;
+font-size: 30px;
+
+}
+.p p span{
+  color: crimson;
+}
+.p p button{
+width: 250px;
+height: 50px;
+position: relative;
+left: 40px;
+top:20px ;
+border-radius: 25px;
+background-color: aqua;
+font-size: large;
+cursor: pointer;
+}
+
